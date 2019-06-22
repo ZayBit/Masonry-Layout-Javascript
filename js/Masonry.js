@@ -1,5 +1,5 @@
 // Contenedor de los elementos que seran utulizados para ser añadidos a las distintas columnas
-const container = document.getElementById('container');
+const container = document.getElementById('masonry');
 // Numero maximo de las columnas a crear (De 1 a 4 columnas maximo)
 const numero_columnas = 4;
 let elementos_hijos = container.children, // elementos hijos del contenedor
