@@ -22,7 +22,7 @@ checkSize();
 function checkSize() {
     // Obtener el ancho del body
     let x = document.body.clientWidth;
-    generar_columnas(col_existentes);
+    //generar_columnas(col_existentes);
     // Distintas medidas 1024px , 768px y 570px de ancho
     // Si es mayor a 1 entonces:
     if (numero_columnas > 1) {
